@@ -37,23 +37,23 @@ $(document).ready(function() {
 
 	//*******************************************/
 	//submission form
-	$('#btn-getInTouchForm').click(function(e){
-		e.preventDefault();
+	// $('#btn-getInTouchForm').click(function(e){
+	// 	e.preventDefault();
 
-		var data = {
-			name: $('#name').val(),
-			email:  $('#email').val() ,
-			interest:  $('#interest').val()
-		}
+	// 	var data = {
+	// 		name: $('#name').val(),
+	// 		email:  $('#email').val() ,
+	// 		interest:  $('#interest').val()
+	// 	}
 
-		// var usersList = firebase.database().ref('interest-list');
-		// var newPostRef = usersList.push();
-		// newPostRef.set(data);
+	// 	// var usersList = firebase.database().ref('interest-list');
+	// 	// var newPostRef = usersList.push();
+	// 	// newPostRef.set(data);
 
-		//console.log( ""++ " - "++" : "+ $('#interest').val() );
-		$('#print-name').text($('#name').val())
-		$('#thanks').show()
-	})
+	// 	//console.log( ""++ " - "++" : "+ $('#interest').val() );
+	// 	$('#print-name').text($('#name').val())
+	// 	$('#thanks').show()
+	// })
 	//*******************************************/
 
 	$('#btn-thanks').click(function(){
