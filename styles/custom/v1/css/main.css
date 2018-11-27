@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'PlateformMedium';
-  src: url('./platformmedium.woff') format('woff'); /* Pretty Modern Browsers */
+  font-family: 'Poppins';
+  src: url('https://fonts.googleapis.com/css?family=Poppins:400,700') format('woff'); /* Pretty Modern Browsers */
 }
 
 /**
@@ -10,7 +10,7 @@
 
 /*== common ==*/
 body {
-	font-family: PlateformMedium, 'Playfair Display', Arial, serif;
+	font-family: Poppins, 'Poppins', Arial, serif;
 	font-style: normal;
 	font-weight: 400;
 	color: #0a090e;
